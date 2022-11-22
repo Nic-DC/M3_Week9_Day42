@@ -6,11 +6,17 @@ const SearchBooks = () => {
 
   return (
     <>
-      <Button onClick={() => setOpen(!open)} aria-controls="example-collapse-text" aria-expanded={open}>
+      <Button
+        variant="warning"
+        onClick={() => setOpen(!open)}
+        aria-controls="example-collapse-text"
+        aria-expanded={open}
+        className="ml-3 mb-3"
+      >
         Search book
       </Button>
       <Collapse in={open}>
-        <div id="example-collapse-text">
+        <div id="example-collapse-text" className="ml-3 mb-3">
           <input type="text" id="searchInput" />
         </div>
       </Collapse>
