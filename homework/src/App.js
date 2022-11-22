@@ -5,20 +5,20 @@ import MyFooter from "./Components/MyFooter";
 import Welcome from "./Components/Welcome";
 import LatestRelease from "./Components/LatestRelease";
 
-import { Container, Row, Col } from "react-bootstrap";
+// import { Container, Row, Col } from "react-bootstrap";
 
 function App() {
   return (
     <div>
       <MyNav />
       <Welcome />
-      <Container fluid>
+      {/* <Container fluid>
         <Row>
-          <Col>
-            <LatestRelease />
-          </Col>
+          <Col> */}
+      <LatestRelease />
+      {/* </Col>
         </Row>
-      </Container>
+      </Container> */}
 
       <MyFooter />
     </div>
