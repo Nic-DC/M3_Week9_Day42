@@ -33,8 +33,8 @@ class LatestRelease extends Component {
         <h2 id="fantasy">Fantasy</h2>
         <Row>
           <Col xl={2} lg={3} md={4} sm={6} xs={12}>
-            {fantasyBooks.map(({ title, img, category, price }) => (
-              <Card>
+            {fantasyBooks.map(({ title, img, category, price, asin }) => (
+              <Card key={asin}>
                 <Card.Img variant="top" src={img} className="img-fluid img-styling" alt={title} />
                 <Card.Body>
                   <Card.Title>{title}</Card.Title>
@@ -49,8 +49,8 @@ class LatestRelease extends Component {
         <h2>History</h2>
         <Row id="history">
           <Col xl={2} lg={3} md={4} sm={6} xs={12}>
-            {historyBooks.map(({ title, img, category, price }) => (
-              <Card>
+            {historyBooks.map(({ title, img, category, price, asin }) => (
+              <Card key={asin}>
                 <Card.Img variant="top" src={img} className="img-fluid img-styling" alt={title} />
                 <Card.Body>
                   <Card.Title>{title}</Card.Title>
