@@ -11,7 +11,7 @@ const MyNav = () => (
         <Nav.Link href="#">Home</Nav.Link>
         <Nav.Link href="#">About</Nav.Link>
         <Nav.Link href="#">Browse</Nav.Link>
-        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+        <NavDropdown title="See Categories" id="collasible-nav-dropdown">
           <NavDropdown.Item href="#fantasy">Fantasy</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="#history">History</NavDropdown.Item>

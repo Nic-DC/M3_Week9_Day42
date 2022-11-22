@@ -4,7 +4,6 @@ import MyNav from "./Components/MyNav";
 import MyFooter from "./Components/MyFooter";
 import Welcome from "./Components/Welcome";
 import LatestRelease from "./Components/LatestRelease";
-import SearchBooks from "./Components/SearchBooks";
 
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -14,11 +13,6 @@ function App() {
       <MyNav />
       <Welcome />
       <Container fluid>
-        <Row>
-          <Col>
-            <SearchBooks />
-          </Col>
-        </Row>
         <Row>
           <Col>
             <LatestRelease />
