@@ -17,7 +17,7 @@ const SearchBooks = () => {
       </Button>
       <Collapse in={open}>
         <div id="example-collapse-text" className="ml-3 mb-3">
-          <input type="text" id="searchInput" />
+          <input type="text" placeholder="write category" id="searchInput" />
         </div>
       </Collapse>
     </>

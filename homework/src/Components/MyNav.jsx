@@ -2,7 +2,9 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap"; // importing the com
 
 const MyNav = () => (
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <Navbar.Brand href="#home">
+      <strong>Books'n'Cooks</strong>
+    </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mr-auto">
